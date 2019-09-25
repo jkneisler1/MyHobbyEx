@@ -1,0 +1,46 @@
+div.c {
+    text-align: center;
+}
+div.r {
+    text-align: right;
+}
+div.l {
+    text-align: left;
+}
+/*
+body {
+    background-image: url("../images/RecipeBook.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+ */
+.wrapper {
+    text-align: center;
+}
+.wrapper ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    /* For IE, the outcast */
+    zoom:1;
+    *display: inline;
+}
+.wrapper li {
+    text-align: left;
+}
+
+#margin1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+.marginAll {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Planning</title>
+    <!-- Link to the bootstrap stylesheet:  insert this just before the </head> tag  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/myStyles.css" type="text/css" >
+    <!-- END Link to the bootstrap stylesheet -->
+</head>
+<Style>
+
+</Style>
+<body>
+    <div class="marginAll">
+        <!--
+        Notes Planning: The project requires 7 of the larger pieces and 5 of the smaller pieces
+        -->
+        <div th:replace="base :: navlinks"></div>
+        <h2>Planning Page</h2>
+        <br />
+        <H4>Tool Choices:</H4>
+        <p>There are many ways to create a block puzzle like the one shown on the home age,
+        and some ways are a lot easiier than others.</p>
+        <p>You could use all hand tools: a hand saw (such as a coping saw), chisels, and a hand plane.  However, there are
+        many cuts that have to be made on this project, so if you decide to used hand tools, plan on this project to take
+        a lot of time.</p>
+        <P>A more time efficient way of creating this project is to use power tool, either a router or a table saw.  Of
+        These two choices, I would recommend a table saw.  Since the individual pieces that you will be making are small,
+        if you decide to use a router, you should also require a router table.  It could become dangerous making these
+        router cuts without using a a router table with your router.</P>
+        <p>There is another reason for using a table saw over a router.  The cuts that you will be making need to be
+        slightly larger that what is indicated in the plans (around 1/32nd of an inch wider and deeper) for other pieces
+        to solve the puzzle.  Other wise the pieces will be too tight and you may not be able to fit al the pieces
+        together.</p>
+        <p>If you have not guesses already, my preference is to use a table saw.  However, this recommendation has one
+        caveat.  You need to use a dado blade with your table saw and dado blades can be expensive.  Using a dado set of
+        blades with your table saw will save a lot of time getting all the pieces to fit together well.</p>
+
+        <br />
+        <H4>Materials:</H4>
+        <p>The thickness of the wood provided in this plan calls for the wood to be 3/4 of an inch in thickness.  You
+        should be able to find this thickness in all home improvement centers or lumber yards.  You may not have a very
+        large selection of types of wood at many of these places.  For example: Home Depot and Lowes used to sell
+        a decent selection of walnut and maple along with oak and popular.  Now, they only sell oak and popular.  It is my
+        opinion that the finished product looks better if you can find different types of wood for the pieces that you
+        will make.</p>
+
+        <br />
+        <H4>Plans:</H4>
+        <p>There are two different types of pieces that you will make to create your block puzzle.</p>
+
+
+        <br />
+        <p>The larger piece is shown below and you will need to make 7 of these.</p>
+
+
+        <br />
+        <p>The smaller piece is shown below and you will need to make 5 of these.</p>
+
+        <br />
+        <div th:replace="base :: footer"></div>
+    </div>
+
+    <!-- JS code: insert this just before the </body> tag -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous">
+    </script>
+    <!-- END JS code -->
+</body>
+</html>
